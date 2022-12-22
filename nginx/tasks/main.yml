@@ -1,0 +1,8 @@
+---
+- name: Install nginx
+  shell: sudo amazon-linux-extras install nginx1 -y
+  notify: nginx restart  
+
+- name: copy index.html file
+  copy: src=index.html dest=/usr/share/nginx/html/
+  notify: nginx restart  

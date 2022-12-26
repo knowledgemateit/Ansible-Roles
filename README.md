@@ -1,9 +1,12 @@
 # Ansible-Roles
 
 Continuous Integration Server:
+
 yum install java-1.8.0-openjdk -y
+
 or
 sudo amazon-linux-extras install java-openjdk11
+
 alternatives --config java
 
 

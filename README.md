@@ -2,7 +2,7 @@
 
 Continuous Integration Server:
 
-yum install java-1.8.0-openjdk -y
+yum install java-1.*
 
 or
 sudo amazon-linux-extras install java-openjdk11

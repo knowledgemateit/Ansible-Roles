@@ -16,6 +16,9 @@ sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
 
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+
 sudo yum install jenkins -y
 
 sudo systemctl enable jenkins

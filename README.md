@@ -46,8 +46,7 @@ ssh-keygen
 # Public key location:
 # /root/.ssh/id_rsa.pub
 
-# Step 2 – Install EPEL repo and Ansible
-sudo amazon-linux-extras install epel
+# Step 2 – Ansible
 yum install ansible pip -y
 
 # Step 3 – Verify installation
@@ -66,6 +65,7 @@ ssh root@<agentPublicIP>
 ssh-keygen
 
 # Step 2 – Copy Master's public key to Agent's authorized_keys
+
 # On MASTER, run:
 ssh-copy-id root@<agentPublicIP>
 

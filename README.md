@@ -85,6 +85,7 @@ vi /etc/ansible/ansible.cfg
 
 Uncomment these two lines:
 ```ini
+[defaults]
 inventory   = /etc/ansible/hosts
 sudo_user   = root
 ```
